@@ -1,0 +1,22 @@
+{
+    "name": "ejklock/project-patterns",
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "scripts": {
+        "test": "phpunit --verbose --debug tests"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ejklock\\ProjectPatterns\\": "src/",
+            "Ejklock\\ProjectPatternsTest\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Evaldo Klock",
+            "email": "neto.nemesis@gmail.com"
+        }
+    ],
+    "require": {}
+}
